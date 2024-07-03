@@ -150,6 +150,7 @@ body {
     display: flex;
     justify-content: space-between;
     gap: 2.4rem;
+    align-items: center;
   }
 
   .flex-2 {
