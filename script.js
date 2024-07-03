@@ -26,6 +26,6 @@ const currentTimeUTC =
   currentSecondsUTC.toString().padStart(2, "0");
 
 document.querySelector(".section-header__day-time-box").innerHTML = `
-    <span class="day" data-testid="${currentDayName}">${currentDayName}, </span>
-    <span class="time" data-testid="${currentTimeUTC}">${currentTimeUTC} UTC</span>
+    <span class="day" data-testid="currentTimeUTC">${currentDayName}, </span>
+    <span class="time" data-testid="currentDay"">${currentTimeUTC} UTC</span>
 `;
